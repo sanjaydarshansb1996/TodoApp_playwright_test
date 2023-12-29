@@ -1,0 +1,24 @@
+{
+  "name": "my-todo-app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "test": "playwright test tests"
+  },
+  "dependencies": {
+    "next": "14.0.4",
+    "playwright": "^1.40.1",
+    "react": "^18",
+    "react-dom": "^18"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.40.1",
+    "@types/node": "^20.10.5",
+    "eslint": "^8",
+    "eslint-config-next": "14.0.4"
+  }
+}
